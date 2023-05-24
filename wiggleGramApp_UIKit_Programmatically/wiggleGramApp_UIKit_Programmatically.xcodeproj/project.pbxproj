@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		387F89A42A1D0AA200889E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F89A32A1D0AA200889E89 /* AppDelegate.swift */; };
+		387F89A62A1D0AA200889E89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F89A52A1D0AA200889E89 /* SceneDelegate.swift */; };
+		387F89A82A1D0AA200889E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F89A72A1D0AA200889E89 /* ViewController.swift */; };
+		387F89AB2A1D0AA200889E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387F89A92A1D0AA200889E89 /* Main.storyboard */; };
+		387F89AD2A1D0AA400889E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387F89AC2A1D0AA400889E89 /* Assets.xcassets */; };
+		387F89B02A1D0AA400889E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387F89AE2A1D0AA400889E89 /* LaunchScreen.storyboard */; };
+		387F89BB2A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F89BA2A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyTests.swift */; };
+		387F89C52A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F89C42A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITests.swift */; };
+		387F89C72A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F89C62A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		387F89B72A1D0AA400889E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387F89982A1D0AA200889E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 387F899F2A1D0AA200889E89;
+			remoteInfo = wiggleGramApp_UIKit_Programmatically;
+		};
+		387F89C12A1D0AA400889E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387F89982A1D0AA200889E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 387F899F2A1D0AA200889E89;
+			remoteInfo = wiggleGramApp_UIKit_Programmatically;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		387F89A02A1D0AA200889E89 /* wiggleGramApp_UIKit_Programmatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wiggleGramApp_UIKit_Programmatically.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		387F89A32A1D0AA200889E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		387F89A52A1D0AA200889E89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		387F89A72A1D0AA200889E89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		387F89AA2A1D0AA200889E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		387F89AC2A1D0AA400889E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		387F89AF2A1D0AA400889E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		387F89B12A1D0AA400889E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387F89B62A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wiggleGramApp_UIKit_ProgrammaticallyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		387F89BA2A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wiggleGramApp_UIKit_ProgrammaticallyTests.swift; sourceTree = "<group>"; };
+		387F89C02A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wiggleGramApp_UIKit_ProgrammaticallyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		387F89C42A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wiggleGramApp_UIKit_ProgrammaticallyUITests.swift; sourceTree = "<group>"; };
+		387F89C62A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wiggleGramApp_UIKit_ProgrammaticallyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		387F899D2A1D0AA200889E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F89B32A1D0AA400889E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F89BD2A1D0AA400889E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		387F89972A1D0AA200889E89 = {
+			isa = PBXGroup;
+			children = (
+				387F89A22A1D0AA200889E89 /* wiggleGramApp_UIKit_Programmatically */,
+				387F89B92A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyTests */,
+				387F89C32A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITests */,
+				387F89A12A1D0AA200889E89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		387F89A12A1D0AA200889E89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				387F89A02A1D0AA200889E89 /* wiggleGramApp_UIKit_Programmatically.app */,
+				387F89B62A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyTests.xctest */,
+				387F89C02A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		387F89A22A1D0AA200889E89 /* wiggleGramApp_UIKit_Programmatically */ = {
+			isa = PBXGroup;
+			children = (
+				387F89A32A1D0AA200889E89 /* AppDelegate.swift */,
+				387F89A52A1D0AA200889E89 /* SceneDelegate.swift */,
+				387F89A72A1D0AA200889E89 /* ViewController.swift */,
+				387F89A92A1D0AA200889E89 /* Main.storyboard */,
+				387F89AC2A1D0AA400889E89 /* Assets.xcassets */,
+				387F89AE2A1D0AA400889E89 /* LaunchScreen.storyboard */,
+				387F89B12A1D0AA400889E89 /* Info.plist */,
+			);
+			path = wiggleGramApp_UIKit_Programmatically;
+			sourceTree = "<group>";
+		};
+		387F89B92A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyTests */ = {
+			isa = PBXGroup;
+			children = (
+				387F89BA2A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyTests.swift */,
+			);
+			path = wiggleGramApp_UIKit_ProgrammaticallyTests;
+			sourceTree = "<group>";
+		};
+		387F89C32A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				387F89C42A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITests.swift */,
+				387F89C62A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITestsLaunchTests.swift */,
+			);
+			path = wiggleGramApp_UIKit_ProgrammaticallyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		387F899F2A1D0AA200889E89 /* wiggleGramApp_UIKit_Programmatically */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387F89CA2A1D0AA400889E89 /* Build configuration list for PBXNativeTarget "wiggleGramApp_UIKit_Programmatically" */;
+			buildPhases = (
+				387F899C2A1D0AA200889E89 /* Sources */,
+				387F899D2A1D0AA200889E89 /* Frameworks */,
+				387F899E2A1D0AA200889E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wiggleGramApp_UIKit_Programmatically;
+			productName = wiggleGramApp_UIKit_Programmatically;
+			productReference = 387F89A02A1D0AA200889E89 /* wiggleGramApp_UIKit_Programmatically.app */;
+			productType = "com.apple.product-type.application";
+		};
+		387F89B52A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387F89CD2A1D0AA400889E89 /* Build configuration list for PBXNativeTarget "wiggleGramApp_UIKit_ProgrammaticallyTests" */;
+			buildPhases = (
+				387F89B22A1D0AA400889E89 /* Sources */,
+				387F89B32A1D0AA400889E89 /* Frameworks */,
+				387F89B42A1D0AA400889E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				387F89B82A1D0AA400889E89 /* PBXTargetDependency */,
+			);
+			name = wiggleGramApp_UIKit_ProgrammaticallyTests;
+			productName = wiggleGramApp_UIKit_ProgrammaticallyTests;
+			productReference = 387F89B62A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		387F89BF2A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387F89D02A1D0AA400889E89 /* Build configuration list for PBXNativeTarget "wiggleGramApp_UIKit_ProgrammaticallyUITests" */;
+			buildPhases = (
+				387F89BC2A1D0AA400889E89 /* Sources */,
+				387F89BD2A1D0AA400889E89 /* Frameworks */,
+				387F89BE2A1D0AA400889E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				387F89C22A1D0AA400889E89 /* PBXTargetDependency */,
+			);
+			name = wiggleGramApp_UIKit_ProgrammaticallyUITests;
+			productName = wiggleGramApp_UIKit_ProgrammaticallyUITests;
+			productReference = 387F89C02A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		387F89982A1D0AA200889E89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					387F899F2A1D0AA200889E89 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					387F89B52A1D0AA400889E89 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 387F899F2A1D0AA200889E89;
+					};
+					387F89BF2A1D0AA400889E89 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 387F899F2A1D0AA200889E89;
+					};
+				};
+			};
+			buildConfigurationList = 387F899B2A1D0AA200889E89 /* Build configuration list for PBXProject "wiggleGramApp_UIKit_Programmatically" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 387F89972A1D0AA200889E89;
+			productRefGroup = 387F89A12A1D0AA200889E89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				387F899F2A1D0AA200889E89 /* wiggleGramApp_UIKit_Programmatically */,
+				387F89B52A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyTests */,
+				387F89BF2A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		387F899E2A1D0AA200889E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387F89B02A1D0AA400889E89 /* LaunchScreen.storyboard in Resources */,
+				387F89AD2A1D0AA400889E89 /* Assets.xcassets in Resources */,
+				387F89AB2A1D0AA200889E89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F89B42A1D0AA400889E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F89BE2A1D0AA400889E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		387F899C2A1D0AA200889E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387F89A82A1D0AA200889E89 /* ViewController.swift in Sources */,
+				387F89A42A1D0AA200889E89 /* AppDelegate.swift in Sources */,
+				387F89A62A1D0AA200889E89 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F89B22A1D0AA400889E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387F89BB2A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F89BC2A1D0AA400889E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387F89C52A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITests.swift in Sources */,
+				387F89C72A1D0AA400889E89 /* wiggleGramApp_UIKit_ProgrammaticallyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		387F89B82A1D0AA400889E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 387F899F2A1D0AA200889E89 /* wiggleGramApp_UIKit_Programmatically */;
+			targetProxy = 387F89B72A1D0AA400889E89 /* PBXContainerItemProxy */;
+		};
+		387F89C22A1D0AA400889E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 387F899F2A1D0AA200889E89 /* wiggleGramApp_UIKit_Programmatically */;
+			targetProxy = 387F89C12A1D0AA400889E89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		387F89A92A1D0AA200889E89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387F89AA2A1D0AA200889E89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		387F89AE2A1D0AA400889E89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387F89AF2A1D0AA400889E89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		387F89C82A1D0AA400889E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		387F89C92A1D0AA400889E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		387F89CB2A1D0AA400889E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y75CGNV7LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wiggleGramApp_UIKit_Programmatically/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agah.wiggleGramApp-UIKit-Programmatically";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		387F89CC2A1D0AA400889E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y75CGNV7LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wiggleGramApp_UIKit_Programmatically/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agah.wiggleGramApp-UIKit-Programmatically";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		387F89CE2A1D0AA400889E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y75CGNV7LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agah.wiggleGramApp-UIKit-ProgrammaticallyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wiggleGramApp_UIKit_Programmatically.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wiggleGramApp_UIKit_Programmatically";
+			};
+			name = Debug;
+		};
+		387F89CF2A1D0AA400889E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y75CGNV7LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agah.wiggleGramApp-UIKit-ProgrammaticallyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wiggleGramApp_UIKit_Programmatically.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wiggleGramApp_UIKit_Programmatically";
+			};
+			name = Release;
+		};
+		387F89D12A1D0AA400889E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y75CGNV7LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agah.wiggleGramApp-UIKit-ProgrammaticallyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wiggleGramApp_UIKit_Programmatically;
+			};
+			name = Debug;
+		};
+		387F89D22A1D0AA400889E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y75CGNV7LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agah.wiggleGramApp-UIKit-ProgrammaticallyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wiggleGramApp_UIKit_Programmatically;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		387F899B2A1D0AA200889E89 /* Build configuration list for PBXProject "wiggleGramApp_UIKit_Programmatically" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387F89C82A1D0AA400889E89 /* Debug */,
+				387F89C92A1D0AA400889E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387F89CA2A1D0AA400889E89 /* Build configuration list for PBXNativeTarget "wiggleGramApp_UIKit_Programmatically" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387F89CB2A1D0AA400889E89 /* Debug */,
+				387F89CC2A1D0AA400889E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387F89CD2A1D0AA400889E89 /* Build configuration list for PBXNativeTarget "wiggleGramApp_UIKit_ProgrammaticallyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387F89CE2A1D0AA400889E89 /* Debug */,
+				387F89CF2A1D0AA400889E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387F89D02A1D0AA400889E89 /* Build configuration list for PBXNativeTarget "wiggleGramApp_UIKit_ProgrammaticallyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387F89D12A1D0AA400889E89 /* Debug */,
+				387F89D22A1D0AA400889E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 387F89982A1D0AA200889E89 /* Project object */;
+}
